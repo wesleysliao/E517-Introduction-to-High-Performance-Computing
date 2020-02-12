@@ -1,0 +1,26 @@
+
+Intro to HPC - Thomas Sterling
+
+Wesley Liao
+
+
+
+Engine for Genetic Algorithm Simulation Experiments
+ 
+  Beginning from completely random actors
+
+ = General Features =
+
+  - "Genome" vector of integer of floating point values 
+  - Probabilistic function for 
+
+  - "Reproduction" by combining the features of successful individuals
+
+  - Detection of a converged population
+
+
+
+
+
+
+

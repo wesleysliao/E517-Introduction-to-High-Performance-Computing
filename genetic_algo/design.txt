@@ -1,0 +1,91 @@
+
+Genetic Algorithm Engine Design Document
+
+Wesley Liao 2019
+
+
+
+Parameters:
+    Genome length                       (int genome_len)
+    Genome type                         (type genome_type)
+    Population size                     (int population_size)
+    
+    Runs with same conditions           (int condition_runs)
+    Generations                         (int generations_max)
+    
+    Individuals per test                (int testgroup_size)
+    Test participations per generation  (int test_participations)
+
+    Parents per reproduction 
+    Offspring per reproduction
+
+    Genes mutated per individual per generation
+
+    Individual:
+
+        Test scores                     (float* test_scores[test_participations])
+        Final score                     (float score)   
+
+
+Data:
+    
+    per run:
+        per generation:
+            genomes[population]
+
+            individuals[population]
+                genome[genome_len]
+                test_scores[participations]
+                final_score
+
+                parents[parents per repo] indexes
+                reproduction_count
+
+
+    
+
+
+Functions:
+    Test groups
+
+    Test                                (test_fn*)(genome_type* genomes, int testgroup_size)
+                                          -> (float* scores[testgroup_size])
+
+    Aggregate score                     (agg_score_fn*)(float* test_scores, int test_participations)
+                                          -> (float final_score)
+
+    Reproduction groups
+    
+    Reproduction selector
+
+    Reproduce
+
+    Offspring
+
+    Mutation function
+
+
+
+Main genetic algo:
+    
+    For set number of generations or until population converges:
+        
+        Assign population into testing groups
+            (pairs in a test like prisoner's dilemma or eggdrop, or individual in all ones)
+            Individuals should 
+
+        Test each group, recording scores for each individual
+
+        For each individual, condense scores into a single final score
+
+        Form reproduction groups using reproduction selector based on individual scores
+
+        For each reproduction group:
+            
+            For each offspring per reproduction:
+                
+                Compose offspring genome from parents
+                Mutate offspring genome
+
+        Population becomes Offspring generation
+

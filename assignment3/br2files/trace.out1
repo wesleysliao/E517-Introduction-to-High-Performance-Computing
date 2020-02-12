@@ -1,0 +1,370 @@
+Working directory is /gpfs/home/w/e/wesliao/BigRed2/mandelbrot
+STONG SCALING TEST
+computing mandelbrot of 16384 by 16384 (268435456) on 1 processors
+Fri Oct 11 20:16:46 EDT 2019
+nrows_l, ny  16384 16384
+Application 18614052 resources: utime ~113s, stime ~2s, Rss ~2098624, inblocks ~5429, outblocks ~4207921
+computing mandelbrot of 16384 by 16384 (268435456) on 2 processors
+Fri Oct 11 20:19:09 EDT 2019
+nrows_l, ny  8192 16384
+received message from proc 1
+Application 18614120 resources: utime ~305s, stime ~8s, Rss ~1050180, inblocks ~5438, outblocks ~4207921
+computing mandelbrot of 16384 by 16384 (268435456) on 4 processors
+Fri Oct 11 20:23:01 EDT 2019
+nrows_l, ny  4096 16384
+received message from proc 1
+received message from proc 2
+received message from proc 3
+Application 18614213 resources: utime ~848s, stime ~17s, Rss ~525936, inblocks ~5457, outblocks ~4207921
+computing mandelbrot of 16384 by 16384 (268435456) on 8 processors
+Fri Oct 11 20:27:30 EDT 2019
+nrows_l, ny  2048 16384
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+Application 18614331 resources: utime ~1739s, stime ~33s, Rss ~263880, inblocks ~5492, outblocks ~4207921
+computing mandelbrot of 16384 by 16384 (268435456) on 16 processors
+Fri Oct 11 20:31:44 EDT 2019
+nrows_l, ny  1024 16384
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+Application 18614442 resources: utime ~3975s, stime ~69s, Rss ~132988, inblocks ~5566, outblocks ~4207923
+computing mandelbrot of 16384 by 16384 (268435456) on 32 processors
+Fri Oct 11 20:36:16 EDT 2019
+nrows_l, ny  512 16384
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+received message from proc 16
+received message from proc 17
+received message from proc 18
+received message from proc 19
+received message from proc 20
+received message from proc 21
+received message from proc 22
+received message from proc 23
+received message from proc 24
+received message from proc 25
+received message from proc 26
+received message from proc 27
+received message from proc 28
+received message from proc 29
+received message from proc 30
+received message from proc 31
+Application 18614554 resources: utime ~9386s, stime ~161s, Rss ~67892, inblocks ~5710, outblocks ~4207925
+computing mandelbrot of 16384 by 16384 (268435456) on 64 processors
+Fri Oct 11 20:41:26 EDT 2019
+nrows_l, ny  256 16384
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+received message from proc 16
+received message from proc 17
+received message from proc 18
+received message from proc 19
+received message from proc 20
+received message from proc 21
+received message from proc 22
+received message from proc 23
+received message from proc 24
+received message from proc 25
+received message from proc 26
+received message from proc 27
+received message from proc 28
+received message from proc 29
+received message from proc 30
+received message from proc 31
+received message from proc 32
+received message from proc 33
+received message from proc 34
+received message from proc 35
+received message from proc 36
+received message from proc 37
+received message from proc 38
+received message from proc 39
+received message from proc 40
+received message from proc 41
+received message from proc 42
+received message from proc 43
+received message from proc 44
+received message from proc 45
+received message from proc 46
+received message from proc 47
+received message from proc 48
+received message from proc 49
+received message from proc 50
+received message from proc 51
+received message from proc 52
+received message from proc 53
+received message from proc 54
+received message from proc 55
+received message from proc 56
+received message from proc 57
+received message from proc 58
+received message from proc 59
+received message from proc 60
+received message from proc 61
+received message from proc 62
+received message from proc 63
+Application 18614693 resources: utime ~14302s, stime ~4363s, Rss ~40968, inblocks ~13167, outblocks ~4222060
+Fri Oct 11 20:46:27 EDT 2019
+WEAK SCALING TEST
+computing mandelbrot of 4096 by 4096 (16777216) on 1 processors
+Fri Oct 11 20:46:27 EDT 2019
+nrows_l, ny  4096 4096
+Application 18614845 resources: utime ~7s, stime ~1s, Rss ~132544, inblocks ~5429, outblocks ~275761
+computing mandelbrot of 4096 by 8192 (33554432) on 2 processors
+Fri Oct 11 20:46:50 EDT 2019
+nrows_l, ny  2048 8192
+received message from proc 1
+Application 18614859 resources: utime ~35s, stime ~1s, Rss ~132676, inblocks ~5438, outblocks ~537905
+computing mandelbrot of 4096 by 16384 (67108864) on 4 processors
+Fri Oct 11 20:47:17 EDT 2019
+nrows_l, ny  1024 16384
+received message from proc 1
+received message from proc 2
+received message from proc 3
+Application 18614861 resources: utime ~206s, stime ~5s, Rss ~132720, inblocks ~5457, outblocks ~1062193
+computing mandelbrot of 4096 by 32768 (134217728) on 8 processors
+Fri Oct 11 20:48:28 EDT 2019
+nrows_l, ny  512 32768
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+Application 18614893 resources: utime ~956s, stime ~18s, Rss ~132808, inblocks ~5492, outblocks ~2110769
+computing mandelbrot of 4096 by 65536 (268435456) on 16 processors
+Fri Oct 11 20:50:49 EDT 2019
+nrows_l, ny  256 65536
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+Application 18614955 resources: utime ~3753s, stime ~65s, Rss ~132988, inblocks ~5566, outblocks ~4207923
+computing mandelbrot of 4096 by 131072 (536870912) on 32 processors
+Fri Oct 11 20:55:06 EDT 2019
+nrows_l, ny  128 131072
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+received message from proc 16
+received message from proc 17
+received message from proc 18
+received message from proc 19
+received message from proc 20
+received message from proc 21
+received message from proc 22
+received message from proc 23
+received message from proc 24
+received message from proc 25
+received message from proc 26
+received message from proc 27
+received message from proc 28
+received message from proc 29
+received message from proc 30
+received message from proc 31
+Application 18615063 resources: utime ~16511s, stime ~284s, Rss ~133352, inblocks ~5710, outblocks ~8402229
+computing mandelbrot of 4096 by 262144 (1073741824) on 64 processors
+Fri Oct 11 21:04:09 EDT 2019
+nrows_l, ny  64 262144
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+received message from proc 16
+received message from proc 17
+received message from proc 18
+received message from proc 19
+received message from proc 20
+received message from proc 21
+received message from proc 22
+received message from proc 23
+received message from proc 24
+received message from proc 25
+received message from proc 26
+received message from proc 27
+received message from proc 28
+received message from proc 29
+received message from proc 30
+received message from proc 31
+received message from proc 32
+received message from proc 33
+received message from proc 34
+received message from proc 35
+received message from proc 36
+received message from proc 37
+received message from proc 38
+received message from proc 39
+received message from proc 40
+received message from proc 41
+received message from proc 42
+received message from proc 43
+received message from proc 44
+received message from proc 45
+received message from proc 46
+Job Cleanup ran on Fri Oct 11 21:17:17 EDT 2019
+===============================
+submit_args  : 	 submit_args = run.sh
+NIDS         : 	 900-901
+NID Placement: 	 900/32 901/32 
+Working directory is /gpfs/home/w/e/wesliao/BigRed2/mandelbrot
+WEAK SCALING TEST
+computing mandelbrot of 4096 by 262144 (1073741824) on 64 processors
+Fri Oct 11 21:26:36 EDT 2019
+nrows_l, ny  64 262144
+received message from proc 1
+received message from proc 2
+received message from proc 3
+received message from proc 4
+received message from proc 5
+received message from proc 6
+received message from proc 7
+received message from proc 8
+received message from proc 9
+received message from proc 10
+received message from proc 11
+received message from proc 12
+received message from proc 13
+received message from proc 14
+received message from proc 15
+received message from proc 16
+received message from proc 17
+received message from proc 18
+received message from proc 19
+received message from proc 20
+received message from proc 21
+received message from proc 22
+received message from proc 23
+received message from proc 24
+received message from proc 25
+received message from proc 26
+received message from proc 27
+received message from proc 28
+received message from proc 29
+received message from proc 30
+received message from proc 31
+received message from proc 32
+received message from proc 33
+received message from proc 34
+received message from proc 35
+received message from proc 36
+received message from proc 37
+received message from proc 38
+received message from proc 39
+received message from proc 40
+received message from proc 41
+received message from proc 42
+received message from proc 43
+received message from proc 44
+received message from proc 45
+received message from proc 46
+received message from proc 47
+received message from proc 48
+received message from proc 49
+received message from proc 50
+received message from proc 51
+received message from proc 52
+received message from proc 53
+received message from proc 54
+received message from proc 55
+received message from proc 56
+received message from proc 57
+received message from proc 58
+received message from proc 59
+received message from proc 60
+received message from proc 61
+received message from proc 62
+received message from proc 63
+Application 18617254 resources: utime ~51533s, stime ~15005s, Rss ~139280, inblocks ~13185, outblocks ~16806508
+Fri Oct 11 21:44:15 EDT 2019
+PERF TEST
+Job Cleanup ran on Fri Oct 11 21:44:18 EDT 2019
+===============================
+submit_args  : 	 submit_args = run.sh
+NIDS         : 	 900-901
+NID Placement: 	 900/32 901/32 
+Working directory is /gpfs/home/w/e/wesliao/BigRed2/mandelbrot
+PERF TEST
+Job Cleanup ran on Fri Oct 11 21:46:51 EDT 2019
+===============================
+submit_args  : 	 submit_args = run.sh
+NIDS         : 	 900-901
+NID Placement: 	 900/32 901/32 

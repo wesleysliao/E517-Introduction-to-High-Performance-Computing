@@ -1,0 +1,130 @@
+CALCULATION OF PI STRONG SCALING TEST
+NUMERICAL INTEGRATION STRONG SCALING TEST
+Job Cleanup ran on Thu Oct 31 14:46:41 EDT 2019
+===============================
+submit_args  : 	 submit_args = run.sh
+NIDS         : 	 922-923
+NID Placement: 	 922/32 923/32 
+Working directory is /gpfs/home/w/e/wesliao/BigRed2/assignment4
+CALCULATION OF PI STRONG SCALING TEST
+computing pi with 1 processors
+Thu Oct 31 15:30:56 EDT 2019
+the total is 3.141592653589734
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943399 resources: utime ~463s, stime ~0s, Rss ~5224, inblocks ~6266, outblocks ~15616
+Thu Oct 31 15:38:41 EDT 2019
+computing pi with 2 processors
+Thu Oct 31 15:38:41 EDT 2019
+the total is 3.141592653589039
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943412 resources: utime ~786s, stime ~0s, Rss ~5016, inblocks ~6344, outblocks ~15616
+Thu Oct 31 15:45:16 EDT 2019
+computing pi with 4 processors
+Thu Oct 31 15:45:16 EDT 2019
+the total is 3.141592653589826
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943417 resources: utime ~786s, stime ~1s, Rss ~5224, inblocks ~6501, outblocks ~15616
+Thu Oct 31 15:48:35 EDT 2019
+computing pi with 8 processors
+Thu Oct 31 15:48:35 EDT 2019
+the total is 3.141592653589762
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943422 resources: utime ~809s, stime ~1s, Rss ~5016, inblocks ~6813, outblocks ~15616
+Thu Oct 31 15:50:18 EDT 2019
+computing pi with 16 processors
+Thu Oct 31 15:50:18 EDT 2019
+the total is 3.141592653589803
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943425 resources: utime ~810s, stime ~1s, Rss ~5224, inblocks ~7438, outblocks ~15617
+Thu Oct 31 15:51:11 EDT 2019
+computing pi with 32 processors
+Thu Oct 31 15:51:11 EDT 2019
+the total is 3.141592653589792
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943426 resources: utime ~811s, stime ~3s, Rss ~5016, inblocks ~8687, outblocks ~15618
+Thu Oct 31 15:51:39 EDT 2019
+computing pi with 64 processors
+Thu Oct 31 15:51:39 EDT 2019
+the total is 3.141592653589793
+true value:  3.141592653589793
+req. accuracy:           ^
+Application 18943427 resources: utime ~825s, stime ~12s, Rss ~8732, inblocks ~18190, outblocks ~31236
+Thu Oct 31 15:51:57 EDT 2019
+NUMERICAL INTEGRATION STRONG SCALING TEST
+computing integral with 1 processors
+Thu Oct 31 15:51:57 EDT 2019
+the total is 0.666666666583099
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943428 resources: utime ~2359s, stime ~0s, Rss ~5224, inblocks ~6954, outblocks ~17391
+Thu Oct 31 16:31:21 EDT 2019
+computing integral with 2 processors
+Thu Oct 31 16:31:21 EDT 2019
+Job Cleanup ran on Thu Oct 31 16:34:11 EDT 2019
+===============================
+submit_args  : 	 submit_args = run.sh
+NIDS         : 	 900-901
+NID Placement: 	 900/32 901/32 
+Working directory is /gpfs/home/w/e/wesliao/BigRed2/assignment4
+NUMERICAL INTEGRATION STRONG SCALING TEST
+computing integral with 2 processors
+Thu Oct 31 17:59:07 EDT 2019
+the total is 0.666666666614048
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943544 resources: utime ~3725s, stime ~0s, Rss ~5016, inblocks ~7032, outblocks ~17391
+Thu Oct 31 18:30:12 EDT 2019
+computing integral with 4 processors
+Thu Oct 31 18:30:12 EDT 2019
+the total is 0.666666666626920
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943578 resources: utime ~3862s, stime ~1s, Rss ~4952, inblocks ~7189, outblocks ~17391
+Thu Oct 31 18:46:20 EDT 2019
+computing integral with 8 processors
+Thu Oct 31 18:46:20 EDT 2019
+the total is 0.666666666665509
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943609 resources: utime ~4034s, stime ~1s, Rss ~5016, inblocks ~7501, outblocks ~17391
+Thu Oct 31 18:54:46 EDT 2019
+computing integral with 16 processors
+Thu Oct 31 18:54:46 EDT 2019
+the total is 0.666666666666372
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943614 resources: utime ~4033s, stime ~1s, Rss ~4952, inblocks ~8126, outblocks ~17392
+Thu Oct 31 18:59:01 EDT 2019
+computing integral with 32 processors
+Thu Oct 31 18:59:01 EDT 2019
+Application 18943617 exit codes: 143
+Application 18943617 resources: utime ~105s, stime ~2s, Rss ~5016, inblocks ~6994, outblocks ~17393
+Job Cleanup ran on Thu Oct 31 19:00:48 EDT 2019
+===============================
+submit_args  : 	 submit_args = run.sh
+NIDS         : 	 901,922
+NID Placement: 	 901/32 922/32 
+Working directory is /gpfs/home/w/e/wesliao/BigRed2/assignment4
+NUMERICAL INTEGRATION STRONG SCALING TEST
+computing integral with 32 processors
+Thu Oct 31 21:08:31 EDT 2019
+the total is 0.666666666666626
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943828 resources: utime ~4035s, stime ~3s, Rss ~5236, inblocks ~9375, outblocks ~17393
+Thu Oct 31 21:10:40 EDT 2019
+computing integral with 64 processors
+Thu Oct 31 21:10:40 EDT 2019
+the total is 0.666666666666667
+true value   0.666666666666667
+req. accuracy:       ^
+Application 18943830 resources: utime ~4050s, stime ~12s, Rss ~9860, inblocks ~19565, outblocks ~34786
+Thu Oct 31 21:11:48 EDT 2019
+Job Cleanup ran on Thu Oct 31 21:11:48 EDT 2019
+
